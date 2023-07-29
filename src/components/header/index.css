@@ -1,20 +1,18 @@
 .container{
     display: flex;
-    /*width: 100%;*/
+    position: fixed;
     height: 70px;
-    position: relative;
+    width: 85%;
     box-shadow: 0 0 4px rgba(0,0,0,.5);
-    background-color: rgba(18, 24, 41, 0.5);
+    background-color: rgba(18, 24, 41, 0.95);
     justify-content: space-between;
     align-items: center;
     padding: 0 120px ;
+    z-index: 999;
 }
 
 img{
-    width: 200px;
-    height: 130px;
-    position: absolute; /* Абсолютное позиционирование для контейнера логотипа */
-    top: -26px;
+    width: 40px;
 }
 
 

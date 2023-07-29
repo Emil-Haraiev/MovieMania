@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import logo from '../../assets/logo.png';
+import logo from '../../assets/popcorn.svg';
 import './index.css';
 
 
@@ -15,6 +15,9 @@ const Header = () => {
                     <ul>
                         <li><a href="#">Movies</a></li>
                         <li><a href="#">TV Shows</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Rankings</a></li>
+                        <li><a href="#">Favorites</a></li>
                     </ul>
                 </div>
             </div>
