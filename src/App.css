@@ -12,7 +12,24 @@ body{
     padding: 0 120px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Расстояние между карточками */
+    gap: 18px; /* Расстояние между карточками */
     max-width: 1215px; /* Максимальная ширина контейнера */
     margin: 0 auto; /* Центрирование контейнера на странице */
+}
+
+/* Стилизация области скролла */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Стилизация ползунка скролла */
+::-webkit-scrollbar-thumb {
+    background-color: #48485d;
+    border-radius: 9px;
+    height: 5px;
+}
+
+/* Стилизация фона области скролла */
+::-webkit-scrollbar-track {
+    background-color: #20283e;
 }

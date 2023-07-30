@@ -1,0 +1,8 @@
+.tab-container{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    width: 250px;
+    border-radius: 7px;
+    background-color: #0b48ec;
+}
