@@ -1,0 +1,157 @@
+.movieImage img{
+    width: 230px;
+    border-radius: 7px 7px 0 0;
+    object-fit: cover;
+
+}
+
+/*img:hover{*/
+/*    transform: scale(1.1) translateY(-5px)*/
+/*}*/
+
+.info{
+    margin-top: -5px;
+    width: 230px;
+    height: 90px;
+    border-radius: 0 0 7px 7px;
+    background-color: #7c6ef6;
+    margin-bottom: 1000px;
+}
+
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 10px;
+}
+
+.movieRating{
+    display: flex;
+    align-items: center;
+}
+
+.movieTitle{
+    font-size: 18px ;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.rate img{
+    width: 25px;
+}
+
+.rateNumber{
+    color: yellow;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.heart{
+    cursor: pointer;
+}
+
+.heart:hover{
+    background-color: #3c425d;
+}
+
+
+
+
+.svgContainer svg{
+    width: 25px;
+    cursor: pointer;
+}
+
+.svgContainer svg path {
+    transition: fill 0.3s ease;
+}
+
+.svgContainer:hover svg path {
+    fill: red;
+}
+
+
+.cardContainer{
+    height: 435px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.cardContainer{*/
+/*    height: 450px;*/
+/*    position: relative;*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: center; !* Центрирует содержимое по горизонтали *!*!*/
+/*    !*align-items: center;*!*/
+/*    width: 270px;*/
+/*    background-color: rgba(18,24,41,0.98) ;*/
+/*    border-radius: 7px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.rate{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    position: absolute;*/
+/*    align-items: center;*/
+/*    padding: 10px 10px;*/
+/*}*/
+
+/*.rate img{*/
+/*    width: 20px;*/
+/*}*/
+
+/*.movieRating{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 50px;*/
+/*    height: 30px;*/
+/*    align-items: center;*/
+/*    background-color: red;*/
+/*    opacity: 0.3;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+
+
+/*.rateNumber{*/
+/*    margin-left: 4px;*/
+/*    font-size: 16px;*/
+/*    color: yellow;*/
+/*}*/
+
+
+
+/*.rate{*/
+/*    display: flex;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    background-color: rgba(0, 0, 0, 0.3);*/
+/*}*/
+
+/*.mainPhoto{*/
+/*    width: 250px;*/
+
+/*}*/
+
+/*.star{*/
+/*    width: 16px;*/
+/*    height: 16px;*/
+/*}*/
+
+/*.rateNumber{*/
+/*    font-size: 12px;*/
+/*    margin-left: 4px;*/
+/*    color: yellow;*/
+/*}*/
+

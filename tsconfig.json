@@ -18,9 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": ["./src", "./node_modules/@types", "./src/images.d.ts"]
   },
   "include": [
-    "src"
+    "src", "src/images.d.ts"
   ]
 }

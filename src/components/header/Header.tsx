@@ -9,7 +9,7 @@ const Header = () => {
         <div>
             <div className="container">
                 <a href="#" className="logo">
-                    <img src={logo} alt="logo"/>
+                    <img className='logo' src={logo} alt="logo"/>
                 </a>
                 <div className="navbar">
                     <ul>
